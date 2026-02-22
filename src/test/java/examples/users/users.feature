@@ -1,3 +1,4 @@
+@regresion
 Feature: Automatizar el backend de Pet Store
 
   Background:
