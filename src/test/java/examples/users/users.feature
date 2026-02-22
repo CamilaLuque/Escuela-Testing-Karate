@@ -5,7 +5,6 @@ Feature: Automatizar el backend de Pet Store
     * def crearMascotaJSON = read('classpath:examples/jsonData/CrearMascota.json')
     * def ActualizarMascotaJSON = read('classpath:examples/jsonData/ActualizarMascota.json')
 
-
   @TEST-1 @happypath @crearMascota
   Scenario: Verificar la creacion de una nueva mascota en Pet Store - OK
     Given path 'pet'
